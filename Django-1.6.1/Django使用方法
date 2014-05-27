@@ -1,0 +1,5 @@
+Django使用方法
+1 执行python setup.py install命令安装Django ：会执行大量拷贝命令实现安装
+2 bin目录下执行django-admin.py startproject mysite创建自己的站点
+3 manage.py runserver能启动一个内置的web服务器
+4 增加新模块的话直接在INSTALLED_APPS下加模块的名字，不需要额外的路径
